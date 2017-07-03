@@ -1,0 +1,13 @@
+body {
+    
+}
+
+.border {
+    border: 8px solid #7A2EE9;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
