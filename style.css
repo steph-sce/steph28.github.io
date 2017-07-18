@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 body {
 
 }
 
+=======
+>>>>>>> e533457cb5a10a171bb661b4dca3dc62d64086af
 .border {
     border: 8px solid #7A2EE9;
     border-radius: 5px;
@@ -9,10 +12,35 @@ body {
 }
 
 h1 {
+<<<<<<< HEAD
     font-family: 'Raleway', sans-serif;
     color: #8332FB;
 }
 
 span {
     background-color: #25EFD7;
+=======
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.stage {
+    background-color: #8332FB;
+    color: #25EFD7;
+    font-size: 35px;
+}
+
+.marine {
+    color: #8332FB;
+    margin: 15px;
+}
+
+p {
+    color: #25EFD7;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a {
+    color: #25EFD7;
+    font-family: 'Open Sans Condensed', sans-serif;
+>>>>>>> e533457cb5a10a171bb661b4dca3dc62d64086af
 }
