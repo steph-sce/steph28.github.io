@@ -5,13 +5,21 @@
 }
 
 h1 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#ShowText {
+    background-color: #25EFD7;
+}
+
+#ShowText:hover {
+    background-color: red;
 }
 
 .stage {
     background-color: #8332FB;
     color: #25EFD7;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .marine {
@@ -19,12 +27,7 @@ h1 {
     margin: 15px;
 }
 
-p {
+p, a {
     color: #25EFD7;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
-a {
-    color: #25EFD7;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
