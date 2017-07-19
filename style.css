@@ -1,7 +1,7 @@
 .border {
     border: 8px solid #7A2EE9;
     border-radius: 5px;
-    margin: 10px;
+    margin: 20px;
 }
 
 h1 {
@@ -14,6 +14,13 @@ h1 {
 
 #ShowText:hover {
     background-color: red;
+    font-family: 'Raleway', sans-serif;
+    color: #8332FB;
+}
+
+span {
+    background-color: #25EFD7;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .stage {
