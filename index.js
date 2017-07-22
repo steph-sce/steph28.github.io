@@ -17,3 +17,26 @@ function CalledOnLoad() {
 }
 
 window.onload = CalledOnLoad;
+
+
+//scroll
+function Scroll() {
+    (function ($) {
+        var elem = $.jInvertScroll(['.scroll'],
+            {
+                height: 6000,
+                onScroll: function (percent) {
+                    console.log(percent);
+                }
+            });
+
+        $(window).resize(function () {
+            if ($(window).width() <= 768) {
+                elem.destroy();
+            }
+            else {
+                elem.reinitialize();
+            }
+        });
+    }(jQuery));
+}
