@@ -27,15 +27,13 @@ h1 {
 
 span {
   background-color: #25EFD7;
-  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .stage {
   background-color: #8332FB;
   color: #25EFD7;
-  font-size: 25px;
   margin-bottom: 110px;
-  width: 415px;
+  padding: 10px 20px;
 }
 
 .marine {
@@ -44,13 +42,10 @@ span {
 }
 
 p, a {
-<<<<<<< HEAD
-    color: #25EFD7;
-    font-family: 'Quicksand', sans-serif;
-}
-=======
   color: #25EFD7;
   text-align: center;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 /* Effet rebond curseur*/
@@ -61,6 +56,6 @@ p, a {
   background-color: #25EFD7;
   margin-bottom: 30px;
   border-radius: 50%;
+  padding: 10px;
 }
 /* Fin effect*/
->>>>>>> aed40aeb00863602c2b49703a5aafd71cb0c7700

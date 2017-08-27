@@ -1,3 +1,4 @@
+// Debut tete aleatoire page accueil
 var quotes = ["JavaScript", "Angular", "ReactNative","Vue.js", "Node.js"];
 
 window.onload = function () {
