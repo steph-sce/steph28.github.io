@@ -55,29 +55,3 @@ p, a {
     color: #25EFD7;
     font-family: 'Quicksand', sans-serif;
 }
-
-/*scroll*/
-.scroll
-{
-  position: fixed;
-  bottom: 0;
-  left: 0;
-}
-
-.horizon
-{
-  z-index: 1;
-  width: 3000px;
-}
-
-.middle
-{
-  z-index: 500;
-  width: 4000px;
-}
-
-.front
-{
-  z-index: 1000;
-  width: 6000px;
-}
