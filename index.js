@@ -6,4 +6,4 @@ window.onload = function () {
         text.innerHTML = quotes[Math.floor(Math.random() * quotes.length)];
     }, 3000);
 };
-
+// Fin de changement de texte
