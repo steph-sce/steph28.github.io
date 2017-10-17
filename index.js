@@ -1,5 +1,5 @@
-// Debut tete aleatoire page accueil
-var quotes = ["JavaScript", "Angular", "ReactNative","Vue.js", "Node.js"];
+// Debut texte aleatoire page accueil
+var quotes = ["JavaScript", "Angular","Vue.js", "Node.js", "HTML5/CSS3", "WEB & MOBILE"];
 
 window.onload = function () {
     window.setInterval(function () {
