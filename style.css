@@ -2,8 +2,7 @@ html, body {
   font-family: 'Quicksand', sans-serif;
   margin: 0;
   padding: 0;
-  border: 0;
-  padding: 10px;
+  height: 100%;
 }
 
 /* Navbar */
@@ -33,38 +32,42 @@ li :hover {
 
 .border {
   border: 8px solid #7A2EE9;
-  border-radius: 5px;
-  width: 96.5vw;
   height: 91vh;
+  width: 97vw;
+  margin: 10px;
+  position: fixed;
 }
 
-.row {
-  justify-content: center;
-  display: flex;
+.home {
+  text-align: center;
 }
 
-.logo{
-  margin-top: 100px;
+#logo{
+  margin-top: 30vh;
 }
 
 h1 {
   padding-top: 50px;
+  color: #7A2EE9;
 }
 
 #ShowText {
   background-color: #25EFD7;
+  padding: 0 5px 0 5px;
 }
 
-.stage {
-  background-color: #8332FB;
-  color: #25EFD7;
-  margin-bottom: 110px;
-  padding: 10px 20px;
-}
+/*#arrow {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+}*/
 
-.marine {
+#marine {
   color: #8332FB;
   margin: 15px;
+  position: absolute;
+  bottom: 0;
 }
 
 p, a {
@@ -80,8 +83,41 @@ p, a {
   animation-duration: 5s;
   animation-iteration-count: infinite;
   background-color: #25EFD7;
-  margin-bottom: 30px;
   border-radius: 50%;
   padding: 10px;
 }
 /* Fin effect*/
+
+
+#pinContainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+}
+#slideContainer {
+  width: 400%; /* to contain 4 panels, each with 100% of window width */
+  height: 100%;
+}
+.panel {
+  height: 100%;
+  width: 25%; /* relative to parent -> 25% of 400% = 100% of window width */
+  float: left;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.turqoise {
+  background-color: turquoise;
+}
+
+.green {
+  background-color: green;
+}
+
+.bordeaux {
+  background-color: red;
+}
